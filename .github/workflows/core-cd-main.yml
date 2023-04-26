@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 jobs:
   ci:
-    uses: fga-eps-mds/2023-1-schedula-gerenciador-de-localidades/.github/workflows/location-ci.yml@main
+    uses: fga-eps-mds/2023-1-schedula-detalhador-de-chamados/.github/workflows/core-ci.yml@main
 
   deploy:
     needs: [ ci ]
